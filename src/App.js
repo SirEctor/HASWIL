@@ -4,13 +4,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>HASWIL: Here Are Some Words I Like</h1>
-        <h1>Word Stats</h1>
-        <h1>FAQ</h1>
-
-      </header>
+      <ul className="App-navbar">
+        <li id="logo-li"><a><img src={logo} id="logo-in-nav" className="App-logo" alt="logo" /></a></li>
+        <li><a>Here Are Some Words I Like</a></li>
+        <li><a>Word Stats</a></li>
+        <li><a>FAQ</a></li>
+        
+      </ul>
     </div>
   );
 }
